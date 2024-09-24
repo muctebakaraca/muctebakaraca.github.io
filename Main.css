@@ -1,0 +1,194 @@
+h2 {
+    color:rgb(123, 46, 212);
+    font-family: Consolas;
+    margin-left: 3pt;
+    
+}
+h1{
+    color: rgb(230, 205, 205);
+    font-family: Consolas;
+    margin-left: 3pt;
+
+}
+body{
+    background-color: rgb(10, 10, 10);
+    
+}
+p{
+    color: rgb(230, 205, 205);
+    font-family: Consolas;
+    margin-left: 10pt;
+}
+.github
+{
+    color: rgb(230, 205, 205);
+    font-family: Consolas;
+    
+}
+.spaceAfter{
+    margin-bottom: 30pt;
+}
+.link{
+    text-decoration: none;
+    
+}
+.pcontainer {
+    width: 95%;
+}
+.subhead{
+    margin-left: 5pt;
+    margin-top: -15pt;
+    color: rgba(230, 205, 205, 0.569);
+    text-indent: 4pt;
+}
+.title{
+    color: rgb(230, 205, 205);
+    font-family: "Consolas";
+    font-size: 30pt;
+    margin-left: 3pt;
+    margin-bottom: 0;
+}
+div .desc{
+    color: rgb(230, 205, 205);
+    font-family: Consolas;
+    margin-left: 3pt;
+    width: div;
+    padding-top: 0;
+    
+}
+.mouseover{
+    background-color: red;
+}
+.desc {
+    font-family: Consolas;
+    margin-left: 3pt;
+}
+span {
+    color: rgba(232, 214, 214, 0.252);
+}
+
+div .border{
+    border: 2pt solid rgba(123, 46, 212, 0.706) ;
+    margin-top: 5pt;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.home{
+    color: rgb(230, 205, 205);
+    font-family: Consolas;
+    font-size: 30pt;
+}
+.animated{
+    width: viewport;
+    height: div;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+
+.transition{
+    background: linear-gradient(to left, black, rgba(77, 0, 160, 0.242)) right;
+    background-size: 250%;
+    transition: .5s ease-out;
+    
+
+}
+.transition:hover{
+    background-position: left;
+}
+
+.fadeInLeft{
+    animation: fadeInLeft 1.4s both;
+}
+.fadeInLeftLeft{
+    animation: fadeInLeftLeft 3s both;
+}
+.fadeInTop{
+    animation: fadeInTop 1.4s both;
+}
+.moveOver{
+    animation: moveOver 2s both;
+}
+@keyframes fadeInLeftLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+        }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-500px);
+        }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes moveOver{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
+@keyframes fadeInTop{
+    0%{
+        opacity: 0;
+        transform: translateY(-500px);
+        }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes backHome{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+.delay1
+{
+    animation-delay: .5s;
+}
+.delay2
+{
+    animation-delay: .7s;
+}
+.delay3
+{
+    animation-delay: 1s;
+}
+.delay4
+{
+    animation-delay: 1.3s;
+}
+.delay5
+{
+    animation-delay: 1.5s;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(123, 46, 212, 0.706);
+    border-radius: 1px;
+  }
+
+
